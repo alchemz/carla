@@ -10,7 +10,7 @@ environmental conditions.
 
 ToDo
 -------
--[] Play around with CarLa simulator in Unreal.
--[] Potentially add a Radar sensor.
+- [] Play around with CarLa simulator in Unreal.
+- [] Potentially add a Radar sensor.
 
 

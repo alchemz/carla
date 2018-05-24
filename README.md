@@ -12,5 +12,6 @@ ToDo
 -------
 - [ ] Play around with CarLa simulator in Unreal.
 - [ ] Potentially add a Radar sensor.
+- [ ] Test with NVIDIA Model for behavorial cloning project.
 
 

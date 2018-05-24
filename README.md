@@ -8,8 +8,9 @@ vehicles) that were created for this purpose and can be used freely. The
 simulation platform supports flexible specification of sensor suites and
 environmental conditions.
 
-Roadmap
+ToDo
 -------
-- [x] Adding a Lidar sensor
+- [] Play around with CarLa simulator in Unreal.
+- [] Potentially add a Radar sensor.
 
 

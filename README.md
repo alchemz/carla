@@ -13,7 +13,10 @@ ToDo
 - [ ] Play around with CarLa simulator in Unreal.
 - [ ] Potentially add a Radar sensor.
 - [ ] Test with NVIDIA Model for behavorial cloning project.
+- [ ] Add mouse control for steering wheel.(It works better compared to AWSD). 
 
+Random Thoughts
+-------
 一些Simulation Design的想法。
 首先，为什么需要simulation.因为数据的收集一部分可以是来自显示生活，另一部分是可以来自虚拟环境。
 使虚拟环境趋于显示，不仅仅意味着画面的渲染使现实风格，更重要的是模拟现实环境的各种参数，提供的各种信息，比如说，在进行lane line finding的时候，会被环境中的很多类似早晚光照，地面不平，天气情况，的很多因素影响，这个环境因素是有可能在虚拟环境中被模拟出来的。

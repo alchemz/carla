@@ -13,7 +13,7 @@ ToDo
 - [ ] Play around with CarLa simulator in Unreal.
 - [ ] Potentially add a Radar sensor.
 - [ ] Test with NVIDIA Model for behavorial cloning project.
-- [ ] Add mouse control for steering wheel.(It works better compared to AWSD). 
+- [ ] Add mouse control for steering wheel.(It works better comparing to AWSD). 
 
 Random Thoughts
 -------

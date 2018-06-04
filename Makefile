@@ -18,6 +18,20 @@ PROTOC_COMPILE=./Util/Protoc.sh
 PROTOC_CLEAN=./Util/Protoc.sh --clean
 endif
 
+ifeq ($(OS), Linux_NT)
+BUILD_RULE=build_Linux
+CLEAN_RULE=clean_Linux
+CALL_CMAKE_RULE=call_cmake_Linux
+PROTOC_COMPILE=cmd.exe /k "cd Util & call Protoc.bat & exit"
+PROTOC_CLEAN=cmd.exe /k "cd Util & call Protoc.bat --clean & exit"
+else
+BUILD_RULE=build_linux
+CLEAN_RULE=clean_linux
+CALL_CMAKE_RULE=call_cmake_linux
+PROTOC_COMPILE=./Util/Protoc.sh
+PROTOC_CLEAN=./Util/Protoc.sh --clean
+endif 
+
 default: release
 
 ### Build ######################################################################
